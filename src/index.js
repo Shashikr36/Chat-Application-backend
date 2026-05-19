@@ -22,7 +22,7 @@ app.use(
     cors({
         origin: [
           "http://localhost:5173",
-          "https://chat-application-frontend-theta.vercel.app/login",
+          "https://chat-application-frontend-theta.vercel.app",
         ],
         credentials: true,
     })
